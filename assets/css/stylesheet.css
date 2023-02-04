@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+            
+* {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+/*
+RescaleJS
+*/
+
+body {
+    background-color: #2b2b2b;
+}
+
+:root {
+    --web-view-ids: container;
+}
+
+#container {
+    position: absolute;
+
+    width: 1920px;
+    height: 1080px;
+
+    --web-view-name: container;
+    --web-view-id: container;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-enable-scale-up: true;
+    --web-scale-on-resize: true;
+    --web-center-vertically: true;
+    --web-enable-deep-linking: true;
+}
+
+/*
+--RescaleJS
+*/
+
+.bloodlineBanking {
+    position: relative;
+    display: block;
+
+    margin: 240 auto;
+    
+    width: 1022px;
+    height: 553px;
+
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 25px;
+}
+
+.bloodlineBankingNavbar {
+    position: relative;
+    display: block;
+
+    top: 55px;
+    left: 40px;
+    
+    width: 206px;   
+    height: 449px;
+}
+
+.bloodlineBankingWatermark {
+    position: relative;
+    
+    width: 206px;
+    height: 97px;
+
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+}
+
+.bloodlineBankingWatermarkIcon {
+    position: relative;
+    display: block;
+
+    height: 66px;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.bloodlineBankingWatermarkText {
+    position: relative;
+    display: block;
+
+    color: white;
+    
+    text-align: left;
+    line-height: 20px;
+    font-size: 20px;
+    
+    height: 100%;
+    
+    top: -55px;
+    left: 95px;
+}
+
+.bloodlineBankingButton {
+    position: relative;
+    display: block;
+    
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+
+    line-height: 50px;
+    margin-bottom: 13px;
+
+    width: 206px;
+    height: 51px;
+
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+    cursor: pointer;
+    
+    transition: 250ms;
+}
+
+.bloodlineBankingButton:hover {
+    color: red;
+}
+
+.bloodlineBankingDashboard {
+    position: relative;
+    display: block;
+    
+    top: -340px;
+    left: 330px;
+    
+    height: 314px;
+    width: 592px;
+    
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.bloodlineBankingDashboardGraph {
+    position: relative;
+
+    margin-top: 40px;
+    margin-left: 40px;
+}
